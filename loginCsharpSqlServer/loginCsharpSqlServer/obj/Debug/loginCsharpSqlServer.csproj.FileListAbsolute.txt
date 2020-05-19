@@ -1,0 +1,8 @@
+C:\Users\Paiva\Desktop\login-csharp-sqlserver\loginCsharpSqlServer\loginCsharpSqlServer\bin\Debug\loginCsharpSqlServer.exe.config
+C:\Users\Paiva\Desktop\login-csharp-sqlserver\loginCsharpSqlServer\loginCsharpSqlServer\bin\Debug\loginCsharpSqlServer.exe
+C:\Users\Paiva\Desktop\login-csharp-sqlserver\loginCsharpSqlServer\loginCsharpSqlServer\bin\Debug\loginCsharpSqlServer.pdb
+C:\Users\Paiva\Desktop\login-csharp-sqlserver\loginCsharpSqlServer\loginCsharpSqlServer\obj\Debug\loginCsharpSqlServer.csprojAssemblyReference.cache
+C:\Users\Paiva\Desktop\login-csharp-sqlserver\loginCsharpSqlServer\loginCsharpSqlServer\obj\Debug\loginCsharpSqlServer.Properties.Resources.resources
+C:\Users\Paiva\Desktop\login-csharp-sqlserver\loginCsharpSqlServer\loginCsharpSqlServer\obj\Debug\loginCsharpSqlServer.csproj.GenerateResource.cache
+C:\Users\Paiva\Desktop\login-csharp-sqlserver\loginCsharpSqlServer\loginCsharpSqlServer\obj\Debug\loginCsharpSqlServer.exe
+C:\Users\Paiva\Desktop\login-csharp-sqlserver\loginCsharpSqlServer\loginCsharpSqlServer\obj\Debug\loginCsharpSqlServer.pdb
