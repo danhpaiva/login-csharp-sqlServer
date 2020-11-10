@@ -9,11 +9,24 @@
     Controle de usuário feito em C# utilizando Windows Forms e banco de dados SQL SERVER
 </p>
 
-## :scroll: Descrição
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenca">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
-<p>Este projeto tem como objetivo trabalhar com Windows Forms e SQL SERVER.</p>
+## :scroll: Objetivo
+
+<p>Este projeto tem como objetivo construir um app utilizando Windows Forms e SQL SERVER.</p>
 <p>É feito um sistema de login que verifica se o usuário digitado está cadastrado 
 dentro do banco de dados e permite ou nega acesso.</p>
+
+<h4 align="center"> 
+	🚧  React Select 🚀 Em construção...  🚧
+</h4>
 
 ## :clipboard: Instalação
 
