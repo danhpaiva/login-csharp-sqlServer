@@ -28,6 +28,9 @@ Você criou o banco de dados local.
 - Visual Studio
 - SQL SERVER
 
-## :lock: Licença
+## :lock: Autor
 
 <p>Desenvolvidoup por <a href="https://www.linkedin.com/in/danhpaiva/" target="_blank">Daniel Paiva</a></p>
+
+## Licença
+<a href="https://www.linkedin.com/in/danhpaiva/" target="_blank">MITadd</a>
