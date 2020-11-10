@@ -8,6 +8,8 @@ Este projeto tem como objetivo trabalhar com Windows Forms e SQL SERVER.
 
 - Visual Studio
 - SQL SERVER
+- Fonts:
+Century Gothic
 
 ## :lock: Licença
 

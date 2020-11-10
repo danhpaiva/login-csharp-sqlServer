@@ -120,7 +120,7 @@
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(86, 29);
             this.btn_login.TabIndex = 5;
-            this.btn_login.Text = "LOGIN";
+            this.btn_login.Text = "ENTRAR";
             this.btn_login.UseVisualStyleBackColor = false;
             // 
             // F_SystemLogin
