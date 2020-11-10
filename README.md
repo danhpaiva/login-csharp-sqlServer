@@ -6,7 +6,7 @@
   </a>
 </p>
 <p align="center">
-    Sistema de controle de usuário feito em C# utilizando Windows Forms e banco de dados SQL SERVER.
+    Controle de usuário feito em C# utilizando Windows Forms e banco de dados SQL SERVER
 </p>
 
 ## :scroll: Descrição
