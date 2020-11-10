@@ -57,7 +57,7 @@
             // 
             // btn_login
             // 
-            this.btn_login.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_login.BackColor = System.Drawing.Color.SlateBlue;
             this.btn_login.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_login.FlatAppearance.BorderSize = 0;
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -122,7 +122,7 @@
             // 
             // pnl_photo
             // 
-            this.pnl_photo.BackColor = System.Drawing.Color.RoyalBlue;
+            this.pnl_photo.BackColor = System.Drawing.Color.SlateBlue;
             this.pnl_photo.Controls.Add(this.btn_close);
             this.pnl_photo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_photo.Location = new System.Drawing.Point(0, 0);

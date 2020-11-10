@@ -1,5 +1,10 @@
 # Sistema de Login
 
+<p align="center">
+  <a href="#">
+    <img src="./images/dev-paiva-3.gif" width="400" title="Daniel Paiva">
+  </a>
+</p>
 <p>Sistema de controle de usuário feito em C# utilizando Windows Forms e banco de dados SQL SERVER.</p>
 
 ## :scroll: Descrição
