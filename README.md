@@ -28,12 +28,12 @@ Este projeto tem como objetivo construir um app utilizando Windows Forms e SQL S
 dentro do banco de dados e permite ou nega acesso.
 
 <h2 id=instalacao>:clipboard: Instalação</h2>
-
-1. Instale o SQL SERVER.
-2. Após a instalação execute o arquivo: <br>
+1. Faça o clone do repositório.
+2. Instale o SQL SERVER, o SSMS e o Visual Studio.
+3. Após a instalação execute o arquivo: <br>
 ```database/login-database.sql``` <br>
 Você criou o banco de dados local.
-3. Agora execute o código em C#.
+3. Agora debug o código em C#.
 
 <h2 id=tecnologias>:toolbox: Tecnologias</h2>
 
@@ -41,6 +41,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - IDE: <a href="https://visualstudio.microsoft.com/pt-br/">Visual Studio</a>
 - Banco de Dados: <a href="https://www.microsoft.com/pt-br/sql-server/sql-server-downloads">SQL SERVER</a>
+- SGBD: <a href="https://docs.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15">SQL Server Management Studio (SSMS)</a>
 
 <h2 id=autor>:grin: Autor</h2>
 
