@@ -1,8 +1,9 @@
-# Sistema para Login
+# Sistema de Login
 
 ## Descrição
 
 Este projeto tem como objetivo trabalhar com Windows Forms e SQL SERVER.
+É feito um sistema de login que verifica o usuário dentro do banco de dados e permite o acesso.
 
 ## :toolbox: Ferramentas Utilizadas
 
