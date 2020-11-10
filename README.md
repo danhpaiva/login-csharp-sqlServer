@@ -18,7 +18,7 @@ dentro do banco de dados e permite ou nega acesso.</p>
 ## :clipboard: Instalação
 
 Instale o SQL SERVER. Após a instalação execute o arquivo:
->database/login-database.sql
+'''database/login-database.sql'''
 
 
 ## :toolbox: Ferramentas Utilizadas
