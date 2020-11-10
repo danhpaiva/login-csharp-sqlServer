@@ -15,6 +15,12 @@
 <p>É feito um sistema de login que verifica se o usuário digitado está cadastrado 
 dentro do banco de dados e permite ou nega acesso.</p>
 
+## :clipboard: Instalação
+
+Instale o SQL SERVER. Após a instalação execute o arquivo:
+>database/login-database.sql
+
+
 ## :toolbox: Ferramentas Utilizadas
 
 - Visual Studio
