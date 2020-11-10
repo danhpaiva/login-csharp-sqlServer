@@ -30,7 +30,7 @@ Você criou o banco de dados local.
 
 ## :lock: Autor
 
-<p>Desenvolvidoup por <a href="https://www.linkedin.com/in/danhpaiva/" target="_blank">Daniel Paiva</a></p>
+<p>Desenvolvido por <a href="https://www.linkedin.com/in/danhpaiva/" target="_blank">Daniel Paiva</a></p>
 
 ## Licença
-<a href="https://www.linkedin.com/in/danhpaiva/" target="_blank">MITadd</a>
+<a href="https://github.com/danhpaiva/login-csharp-sqlServer/blob/master/LICENSE" target="_blank">MIT</a>
