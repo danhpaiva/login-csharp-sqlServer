@@ -22,7 +22,7 @@
 	🚧 Em construção...  🚧
 </h2>
 
-<h2 id=objetivo>:scrool: Objetivo</h2>
+<h2 id=objetivo>:scroll: Objetivo</h2>
 Este projeto tem como objetivo construir um app utilizando Windows Forms e SQL SERVER.
 É feito um sistema de login que verifica se o usuário digitado está cadastrado 
 dentro do banco de dados e permite ou nega acesso.
