@@ -33,9 +33,9 @@
             this.tb_login = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_login = new System.Windows.Forms.Label();
-            this.pb_imge = new System.Windows.Forms.PictureBox();
             this.pnl_photo = new System.Windows.Forms.Panel();
             this.btn_login = new System.Windows.Forms.Button();
+            this.pb_imge = new System.Windows.Forms.PictureBox();
             this.pnl_info.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_imge)).BeginInit();
             this.SuspendLayout();
@@ -48,57 +48,50 @@
             this.pnl_info.Controls.Add(this.label1);
             this.pnl_info.Controls.Add(this.lbl_login);
             this.pnl_info.Controls.Add(this.pb_imge);
-            this.pnl_info.Location = new System.Drawing.Point(40, 40);
+            this.pnl_info.Location = new System.Drawing.Point(40, 56);
             this.pnl_info.Name = "pnl_info";
-            this.pnl_info.Size = new System.Drawing.Size(640, 348);
+            this.pnl_info.Size = new System.Drawing.Size(640, 360);
             this.pnl_info.TabIndex = 0;
             // 
             // tb_password
             // 
             this.tb_password.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_password.Location = new System.Drawing.Point(156, 264);
+            this.tb_password.Location = new System.Drawing.Point(159, 264);
             this.tb_password.Name = "tb_password";
             this.tb_password.Size = new System.Drawing.Size(324, 27);
             this.tb_password.TabIndex = 4;
+            this.tb_password.Text = "12345";
             this.tb_password.UseSystemPasswordChar = true;
             // 
             // tb_login
             // 
             this.tb_login.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_login.Location = new System.Drawing.Point(156, 190);
+            this.tb_login.Location = new System.Drawing.Point(159, 190);
             this.tb_login.Name = "tb_login";
             this.tb_login.Size = new System.Drawing.Size(324, 27);
             this.tb_login.TabIndex = 3;
+            this.tb_login.Enter += new System.EventHandler(this.tb_loginEnter);
+            this.tb_login.Leave += new System.EventHandler(this.tb_loginExit);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(152, 240);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(155, 240);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 21);
+            this.label1.Size = new System.Drawing.Size(58, 19);
             this.label1.TabIndex = 2;
             this.label1.Text = "Senha";
             // 
             // lbl_login
             // 
             this.lbl_login.AutoSize = true;
-            this.lbl_login.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_login.Location = new System.Drawing.Point(152, 166);
+            this.lbl_login.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_login.Location = new System.Drawing.Point(155, 166);
             this.lbl_login.Name = "lbl_login";
-            this.lbl_login.Size = new System.Drawing.Size(66, 21);
+            this.lbl_login.Size = new System.Drawing.Size(65, 19);
             this.lbl_login.TabIndex = 1;
             this.lbl_login.Text = "Usuário";
-            // 
-            // pb_imge
-            // 
-            this.pb_imge.Image = global::SystemLogin.Properties.Resources.user;
-            this.pb_imge.Location = new System.Drawing.Point(240, 1);
-            this.pb_imge.Name = "pb_imge";
-            this.pb_imge.Size = new System.Drawing.Size(150, 150);
-            this.pb_imge.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_imge.TabIndex = 0;
-            this.pb_imge.TabStop = false;
             // 
             // pnl_photo
             // 
@@ -116,18 +109,29 @@
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_login.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_login.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_login.Location = new System.Drawing.Point(281, 307);
+            this.btn_login.Location = new System.Drawing.Point(272, 318);
             this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(86, 29);
+            this.btn_login.Size = new System.Drawing.Size(110, 30);
             this.btn_login.TabIndex = 5;
             this.btn_login.Text = "ENTRAR";
             this.btn_login.UseVisualStyleBackColor = false;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
+            // 
+            // pb_imge
+            // 
+            this.pb_imge.Image = global::SystemLogin.Properties.Resources.user_2;
+            this.pb_imge.Location = new System.Drawing.Point(259, 20);
+            this.pb_imge.Name = "pb_imge";
+            this.pb_imge.Size = new System.Drawing.Size(125, 125);
+            this.pb_imge.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_imge.TabIndex = 0;
+            this.pb_imge.TabStop = false;
             // 
             // F_SystemLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(730, 400);
+            this.ClientSize = new System.Drawing.Size(730, 450);
             this.Controls.Add(this.pnl_info);
             this.Controls.Add(this.pnl_photo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
