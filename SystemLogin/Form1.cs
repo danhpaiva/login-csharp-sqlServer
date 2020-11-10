@@ -59,5 +59,10 @@ namespace SystemLogin
             //Fechar banco de dados
             connection.Close();
         }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

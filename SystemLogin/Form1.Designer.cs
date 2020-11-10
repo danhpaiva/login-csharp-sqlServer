@@ -36,7 +36,9 @@
             this.pnl_photo = new System.Windows.Forms.Panel();
             this.btn_login = new System.Windows.Forms.Button();
             this.pb_imge = new System.Windows.Forms.PictureBox();
+            this.btn_close = new System.Windows.Forms.Button();
             this.pnl_info.SuspendLayout();
+            this.pnl_photo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_imge)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,6 +98,7 @@
             // pnl_photo
             // 
             this.pnl_photo.BackColor = System.Drawing.Color.RoyalBlue;
+            this.pnl_photo.Controls.Add(this.btn_close);
             this.pnl_photo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_photo.Location = new System.Drawing.Point(0, 0);
             this.pnl_photo.Name = "pnl_photo";
@@ -105,6 +108,7 @@
             // btn_login
             // 
             this.btn_login.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_login.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_login.FlatAppearance.BorderSize = 0;
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_login.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -127,6 +131,21 @@
             this.pb_imge.TabIndex = 0;
             this.pb_imge.TabStop = false;
             // 
+            // btn_close
+            // 
+            this.btn_close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_close.FlatAppearance.BorderSize = 0;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_close.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_close.Location = new System.Drawing.Point(697, 3);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(30, 30);
+            this.btn_close.TabIndex = 0;
+            this.btn_close.Text = "X";
+            this.btn_close.UseVisualStyleBackColor = true;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
             // F_SystemLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,6 +160,7 @@
             this.Text = "System Login";
             this.pnl_info.ResumeLayout(false);
             this.pnl_info.PerformLayout();
+            this.pnl_photo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb_imge)).EndInit();
             this.ResumeLayout(false);
 
@@ -156,6 +176,7 @@
         private System.Windows.Forms.TextBox tb_password;
         private System.Windows.Forms.TextBox tb_login;
         private System.Windows.Forms.Button btn_login;
+        private System.Windows.Forms.Button btn_close;
     }
 }
 
