@@ -12,7 +12,7 @@
 <p align="center">
  <a href="#status">Status</a> • 
  <a href="#objetivo">Objetivo</a> •
- <a href="#install">Instalação</a> • 
+ <a href="#instalacao">Instalação</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#autor">Autor</a> .
  <a href="#licenca">Licença</a> • 
@@ -27,7 +27,7 @@ Este projeto tem como objetivo construir um app utilizando Windows Forms e SQL S
 É feito um sistema de login que verifica se o usuário digitado está cadastrado 
 dentro do banco de dados e permite ou nega acesso.
 
-<h2 id=install>:clipboard: Instalação</h2>
+<h2 id=instalacao>:clipboard: Instalação</h2>
 
 1. Instale o SQL SERVER.
 2. Após a instalação execute o arquivo: <br>
