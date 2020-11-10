@@ -24,7 +24,7 @@
 <p>É feito um sistema de login que verifica se o usuário digitado está cadastrado 
 dentro do banco de dados e permite ou nega acesso.</p>
 
-<h4 align="center"> 
+<h4 align="center" id=roadmap> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
 
@@ -41,9 +41,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - IDE: <a href="https://visualstudio.microsoft.com/pt-br/">Visual Studio</a>
 - Banco de Dados: <a href="https://visualstudio.microsoft.com/pt-br/">SQL SERVER</a>
 
-## :lock: Autor
+## Autor
 
 <p>Desenvolvido por <a href="https://www.linkedin.com/in/danhpaiva/" target="_blank">Daniel Paiva</a></p>
 
-## Licença
+<h3 id=licenca>:lock: Licença</h3>
 <a href="https://github.com/danhpaiva/login-csharp-sqlServer/blob/master/LICENSE" target="_blank">MIT</a>
