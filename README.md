@@ -19,7 +19,7 @@ dentro do banco de dados e permite ou nega acesso.</p>
 
 1. Instale o SQL SERVER.
 2. Após a instalação execute o arquivo:
->database/login-database.sql <br>
+```database/login-database.sql``` <br>
 Você criou o banco de dados local.
 3. Execute o código em C#.
 
