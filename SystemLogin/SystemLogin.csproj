@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="F_SystenLogin.cs">
+    <Compile Include="F_SystemLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F_SystenLogin.Designer.cs">
-      <DependentUpon>F_SystenLogin.cs</DependentUpon>
+    <Compile Include="F_SystemLogin.Designer.cs">
+      <DependentUpon>F_SystemLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="F_SystenLogin.resx">
-      <DependentUpon>F_SystenLogin.cs</DependentUpon>
+    <EmbeddedResource Include="F_SystemLogin.resx">
+      <DependentUpon>F_SystemLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
