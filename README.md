@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="./images/dev-paiva-3.gif" width="400" title="Daniel Paiva">
+    <img src="" width="400" title="Sistema de Login" alt="Sistema de Login">
   </a>
 </p>
 <p>Sistema de controle de usuário feito em C# utilizando Windows Forms e banco de dados SQL SERVER.</p>
