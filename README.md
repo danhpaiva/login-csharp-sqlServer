@@ -2,8 +2,8 @@
 
 ## Descrição
 
-Este projeto tem como objetivo trabalhar com Windows Forms e SQL SERVER.
-É feito um sistema de login que verifica o usuário dentro do banco de dados e permite o acesso.
+<p>Este projeto tem como objetivo trabalhar com Windows Forms e SQL SERVER.</p>
+<p>É feito um sistema de login que verifica o usuário dentro do banco de dados e permite o acesso.</p>
 
 ## :toolbox: Ferramentas Utilizadas
 
