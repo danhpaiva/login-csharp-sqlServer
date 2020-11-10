@@ -11,4 +11,4 @@ Este projeto tem como objetivo trabalhar com Windows Forms e SQL SERVER.
 
 ## :lock: Licença
 
-<p><a href="#" target="blank">Daniel Paiva<a/><p/>
+<p>Desenvolvidor por<a href="https://www.linkedin.com/in/danhpaiva/" target="blank">Daniel Paiva<a/><p/>
