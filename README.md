@@ -2,12 +2,11 @@
 
 <p>Sistema de controle de usuário feito em C# utilizando Windows Forms e banco de dados SQL SERVER.</p>
 
-## Descrição
+## :scroll: Descrição
 
 <p>Este projeto tem como objetivo trabalhar com Windows Forms e SQL SERVER.</p>
-<p>É feito um sistema de login que verifica o usuário dentro do banco de dados e permite o acesso.</p>
-
-##
+<p>É feito um sistema de login que verifica se o usuário digitado está cadastrado 
+dentro do banco de dados e permite ou nega acesso.</p>
 
 ## :toolbox: Ferramentas Utilizadas
 
