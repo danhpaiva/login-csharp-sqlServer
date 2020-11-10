@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="./screenshot/login.png" width="500" title="Sistema de Login" alt="Sistema de Login">
+    <img src="./screenshot/login.png" width="500" alt="Sistema de Login">
   </a>
 </p>
 <p align="center">
