@@ -23,10 +23,10 @@ dentro do banco de dados e permite ou nega acesso.</p>
 Você criou o banco de dados local.
 3. Execute o código em C#.
 
-## :toolbox: Ferramentas Utilizadas
-
-- Visual Studio
-- SQL SERVER
+## :toolbox: Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+- IDE: <a href="https://visualstudio.microsoft.com/pt-br/">Visual Studio</a>
+- Banco de Dados: <a href="https://visualstudio.microsoft.com/pt-br/">SQL SERVER</a>
 
 ## :lock: Autor
 
