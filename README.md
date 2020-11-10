@@ -28,6 +28,7 @@ Este projeto tem como objetivo construir um app utilizando Windows Forms e SQL S
 dentro do banco de dados e permite ou nega acesso.
 
 <h2 id=instalacao>:clipboard: Instalação</h2>
+
 1. Faça o clone do repositório.
 2. Instale o SQL SERVER, o SSMS e o Visual Studio.
 3. Após a instalação execute o arquivo: <br>
