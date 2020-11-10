@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.pnl_info = new System.Windows.Forms.Panel();
+            this.btn_login = new System.Windows.Forms.Button();
             this.tb_password = new System.Windows.Forms.TextBox();
             this.tb_login = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_login = new System.Windows.Forms.Label();
-            this.pnl_photo = new System.Windows.Forms.Panel();
-            this.btn_login = new System.Windows.Forms.Button();
             this.pb_imge = new System.Windows.Forms.PictureBox();
+            this.pnl_photo = new System.Windows.Forms.Panel();
             this.btn_close = new System.Windows.Forms.Button();
             this.pnl_info.SuspendLayout();
-            this.pnl_photo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_imge)).BeginInit();
+            this.pnl_photo.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_info
@@ -55,6 +55,22 @@
             this.pnl_info.Size = new System.Drawing.Size(640, 360);
             this.pnl_info.TabIndex = 0;
             // 
+            // btn_login
+            // 
+            this.btn_login.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_login.FlatAppearance.BorderSize = 0;
+            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_login.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_login.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_login.Location = new System.Drawing.Point(272, 318);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(110, 30);
+            this.btn_login.TabIndex = 5;
+            this.btn_login.Text = "ENTRAR";
+            this.btn_login.UseVisualStyleBackColor = false;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
+            // 
             // tb_password
             // 
             this.tb_password.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -62,7 +78,6 @@
             this.tb_password.Name = "tb_password";
             this.tb_password.Size = new System.Drawing.Size(324, 27);
             this.tb_password.TabIndex = 4;
-            this.tb_password.Text = "12345";
             this.tb_password.UseSystemPasswordChar = true;
             // 
             // tb_login
@@ -95,32 +110,6 @@
             this.lbl_login.TabIndex = 1;
             this.lbl_login.Text = "Usuário";
             // 
-            // pnl_photo
-            // 
-            this.pnl_photo.BackColor = System.Drawing.Color.RoyalBlue;
-            this.pnl_photo.Controls.Add(this.btn_close);
-            this.pnl_photo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl_photo.Location = new System.Drawing.Point(0, 0);
-            this.pnl_photo.Name = "pnl_photo";
-            this.pnl_photo.Size = new System.Drawing.Size(730, 157);
-            this.pnl_photo.TabIndex = 1;
-            // 
-            // btn_login
-            // 
-            this.btn_login.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btn_login.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_login.FlatAppearance.BorderSize = 0;
-            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_login.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_login.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_login.Location = new System.Drawing.Point(272, 318);
-            this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(110, 30);
-            this.btn_login.TabIndex = 5;
-            this.btn_login.Text = "ENTRAR";
-            this.btn_login.UseVisualStyleBackColor = false;
-            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
-            // 
             // pb_imge
             // 
             this.pb_imge.Image = global::SystemLogin.Properties.Resources.user_2;
@@ -130,6 +119,16 @@
             this.pb_imge.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_imge.TabIndex = 0;
             this.pb_imge.TabStop = false;
+            // 
+            // pnl_photo
+            // 
+            this.pnl_photo.BackColor = System.Drawing.Color.RoyalBlue;
+            this.pnl_photo.Controls.Add(this.btn_close);
+            this.pnl_photo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnl_photo.Location = new System.Drawing.Point(0, 0);
+            this.pnl_photo.Name = "pnl_photo";
+            this.pnl_photo.Size = new System.Drawing.Size(730, 157);
+            this.pnl_photo.TabIndex = 1;
             // 
             // btn_close
             // 
@@ -160,8 +159,8 @@
             this.Text = "System Login";
             this.pnl_info.ResumeLayout(false);
             this.pnl_info.PerformLayout();
-            this.pnl_photo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb_imge)).EndInit();
+            this.pnl_photo.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
