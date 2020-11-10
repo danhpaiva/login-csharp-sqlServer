@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="" width="400" title="Sistema de Login" alt="Sistema de Login">
+    <img src="./screenshot/login.png" width="400" title="Sistema de Login" alt="Sistema de Login">
   </a>
 </p>
 <p>Sistema de controle de usuário feito em C# utilizando Windows Forms e banco de dados SQL SERVER.</p>
