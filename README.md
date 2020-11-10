@@ -19,7 +19,7 @@ dentro do banco de dados e permite ou nega acesso.</p>
 
 1. Instale o SQL SERVER.
 2. Após a instalação execute o arquivo:
-```database/login-database.sql```
+>database/login-database.sql <br>
 Você criou o banco de dados local.
 3. Execute o código em C#.
 
@@ -30,4 +30,4 @@ Você criou o banco de dados local.
 
 ## :lock: Licença
 
-<p>Desenvolvidor por <a href="https://www.linkedin.com/in/danhpaiva/" target="_blank">Daniel Paiva</a></p>
+<p>Desenvolvidoup por <a href="https://www.linkedin.com/in/danhpaiva/" target="_blank">Daniel Paiva</a></p>
