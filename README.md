@@ -35,8 +35,10 @@ dentro do banco de dados e permite ou nega acesso.
 Você criou o banco de dados local.
 3. Agora execute o código em C#.
 
-<h2 id=tecnologias>Tecnologias</h2>
+<h2 id=tecnologias>:toolbox:Tecnologias</h2>
+
 As seguintes ferramentas foram usadas na construção do projeto:
+
 - IDE: <a href="https://visualstudio.microsoft.com/pt-br/">Visual Studio</a>
 - Banco de Dados: <a href="https://www.microsoft.com/pt-br/sql-server/sql-server-downloads">SQL SERVER</a>
 
