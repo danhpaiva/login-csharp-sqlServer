@@ -60,6 +60,11 @@ namespace SystemLogin
                         MessageBox.Show("Usuário e senha não confere.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
+                //Se ele não encontrar o login no BD, ele não retorna linha!
+                else
+                {
+                    MessageBox.Show("Usuário e senha não confere.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             finally
             {
