@@ -19,7 +19,7 @@
 </p>
 
 <h2 align="center" id=status> 
-	🚧 Em construção...  🚧
+	:beginner: Concluído :beginner:
 </h2>
 
 <h2 id=objetivo>:scroll: Objetivo</h2>
