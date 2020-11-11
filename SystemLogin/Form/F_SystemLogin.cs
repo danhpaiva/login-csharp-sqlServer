@@ -31,34 +31,50 @@ namespace SystemLogin
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = @"Data Source=DESKTOP-DJRN7DM\SQL2019;Initial Catalog=LOGIN;Integrated Security=True";
-
-            //Abrir banco de dados
-            conn.Open();
-
+            SqlConnection conn = null;
+            SqlDataReader reader = null;
             string sql = "SELECT * FROM Authentication where username = @login";
-
-            SqlCommand cmd = new SqlCommand(sql, conn);
-
-            cmd.Parameters.AddWithValue("@login", tb_login.Text);
-
-            SqlDataReader reader = cmd.ExecuteReader();
-
-            if (reader.HasRows)
+            try
             {
-                reader.Read();
-                if (tb_login.Text.Equals(reader["username"].ToString()) && tb_password.Text.Equals(reader["password"].ToString()))
+                conn = new SqlConnection();
+                conn.ConnectionString = @"Data Source=DESKTOP-DJRN7DM\SQL2019;Initial Catalog=LOGIN;Integrated Security=True";
+
+                //Abrir banco de dados
+                conn.Open();
+
+                SqlCommand cmd = new SqlCommand(sql, conn);
+
+                cmd.Parameters.AddWithValue("@login", tb_login.Text);
+
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows)
                 {
-                    MessageBox.Show("Login efetuado com sucesso!", "Parabéns!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Usuário e senha não confere.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    reader.Read();
+                    if (tb_login.Text.Equals(reader["username"].ToString()) && tb_password.Text.Equals(reader["password"].ToString()))
+                    {
+                        MessageBox.Show("Login efetuado com sucesso!", "Parabéns!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuário e senha não confere.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
-            //Fechar banco de dados
-            conn.Close();
+            finally
+            {
+                // Fecha o datareader
+                if (reader != null)
+                {
+                    reader.Close();
+                }
+
+                // Fecha a conexão
+                if (conn != null)
+                {
+                    conn.Close();
+                }
+            }
         }
 
         private void btn_close_Click(object sender, EventArgs e)
