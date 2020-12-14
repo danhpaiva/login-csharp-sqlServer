@@ -19,7 +19,7 @@
 </p>
 
 <h2 align="center" id=status> 
-	:beginner: Concluído :beginner:
+	:star: Concluído :star:
 </h2>
 
 <h2 id=objetivo>:scroll: Objetivo</h2>
